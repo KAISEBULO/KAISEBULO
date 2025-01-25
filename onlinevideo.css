@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+header{
+    display: flex;
+    background-color: coral;
+    align-items: center;
+    justify-content: space-between
+}
+body{
+    background-image: url(netflixImage.jpg);
+    font-family: sans-serif;
+}
+.thousandsofmovies{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(0, 0, 0, 0.7); */
+}
+header h1{
+    color: rgb(57, 9, 229);
+    font-size: 2.5em;
+}
+header button{
+    background-color: dimgray;
+    color: honeydew;
+    font-size: 1.2em;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+section h2{
+    font-size: 3.5em;
+    font-weight: 950;
+    text-align: center;
+}
+section .firstparagraph{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+section .secondparagraph{
+    font-size: 1.5em;
+}
+form{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+form input{
+    background-color: blue;
+    padding: 1rem 16px;
+    color: darkgreen;
+    border: 1px solid color(black);
+    border-radius: 8px;
+    height: 50px;
+    flex: 0.25;
+}
+form input::placeholder{
+    color: darksalmon;
+    font-size: 1.5rem;
+}
+form button{
+    color: green
+    background-color black
+
+
+
+
+
+    
+
+}
